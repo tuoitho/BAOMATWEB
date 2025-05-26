@@ -11,9 +11,6 @@ updates:
     schedule:
       interval: "daily"
     open-pull-requests-limit: 5
-    ignore:
-      - dependency-name: "*"
-        versions: ["*-SNAPSHOT"] # Bỏ qua phiên bản snapshot
     commit-message:
       prefix: "fix"
       prefix-development: "chore"
